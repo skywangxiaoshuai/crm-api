@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  visited_at: 2017-03-22 14:46:54
+  shop_name: MyString
+  road_name: MyString
+  shop_type: MyString
+  weixin: MyString
+  zhifubao: MyString
+  contact: MyString
+  contact_way: MyString
+  note: MyText
+
+two:
+  visited_at: 2017-03-22 14:46:54
+  shop_name: MyString
+  road_name: MyString
+  shop_type: MyString
+  weixin: MyString
+  zhifubao: MyString
+  contact: MyString
+  contact_way: MyString
+  note: MyText

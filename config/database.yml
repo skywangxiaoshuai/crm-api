@@ -1,0 +1,51 @@
+development:
+  adapter: postgresql
+  host: 192.168.0.15
+  port: 5432
+  database: crm
+  username: admin
+  # host: www.geyiwu.com
+  # port: 1158
+  # database: crm
+  # username: crm
+  encoding: unicode
+  pool: 5
+
+  password: 123456
+
+test:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  encoding: unicode
+  database: geyiwu_test
+  pool: 5
+  username: geyiwu
+  password: 123456
+
+staging:
+  adapter: postgresql
+  # host: 192.168.0.201
+  # port: 9999
+  # database: crm-dev
+  host: 192.168.0.15
+  port: 5432
+  database: crm
+  encoding: unicode
+  pool: 5
+  username: admin
+  password: 123456
+  prepared_statements: true
+  statement_limit: 1000
+
+production:
+  adapter: postgresql
+  host: 192.168.0.21
+  port: 5432
+  encoding: unicode
+  database: crm
+  pool: 5
+  username: crm
+  password: 123456
+  prepared_statements: true
+  statement_limit: 1000
